@@ -1,0 +1,26 @@
+id: hackrf_sync_sync_source
+label: HackRF Sync Source
+category: '[HACKRF_SYNC]'
+
+templates:
+  imports: import hackrf_sync
+  make: hackrf_sync.sync_source.make(${serial}, ${hw_sync})
+
+parameters:
+- id: serial
+  label: Serial Number
+  dtype: string
+  default: '""'
+- id: hw_sync
+  label: Hardware Sync
+  dtype: bool
+  default: 'False'
+  options: [ 'True', 'False' ]
+  option_labels: [ 'Slave (Wait for Trigger)', 'Master (Fire Trigger)' ]
+
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+
+file_format: 1

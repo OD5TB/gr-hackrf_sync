@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+356996e1f48c7dea13dce5096a56ef3a CMakeFiles/uninstall
+363636fb3febc2749741d6d710bcf401 python/hackrf_sync/CMakeFiles/copy_module_for_tests
+887ac41e286486eeb91e387ac50f8904 python/hackrf_sync/CMakeFiles/pygen_python_hackrf_sync_342074c95fc627deb0b41133af221c9e
+218cb5c9f39de73dcffab5326db1ea4b python/hackrf_sync/__init__.pyc
+7cde366e173eeaabd448e78ebdd9e9df python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_docstrings
+96b7734ce27b3e093b88c10f0a1112bf python/hackrf_sync/bindings/docstring_status

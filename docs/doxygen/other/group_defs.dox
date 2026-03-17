@@ -1,0 +1,6 @@
+/*!
+ * \defgroup block GNU Radio HACKRF_SYNC C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the HACKRF_SYNC GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */

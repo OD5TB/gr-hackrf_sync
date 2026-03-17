@@ -1,0 +1,25 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/od5tb/Documents/gr-hackrf_sync/python/hackrf_sync/bindings/python_bindings.cc" "python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/python_bindings.cc.o" "gcc" "python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/python_bindings.cc.o.d"
+  "/home/od5tb/Documents/gr-hackrf_sync/python/hackrf_sync/bindings/sync_source_python.cc" "python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/sync_source_python.cc.o" "gcc" "python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/sync_source_python.cc.o.d"
+  "" "python/hackrf_sync/bindings/hackrf_sync_python.cpython-313-aarch64-linux-gnu.so" "gcc" "python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/link.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

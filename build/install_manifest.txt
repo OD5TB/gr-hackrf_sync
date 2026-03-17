@@ -1,0 +1,13 @@
+/usr/local/include/gnuradio/hackrf_sync/api.h
+/usr/local/include/gnuradio/hackrf_sync/sync_source.h
+/usr/local/lib/aarch64-linux-gnu/libgnuradio-hackrf_sync.so.1.0.0.0
+/usr/local/lib/aarch64-linux-gnu/libgnuradio-hackrf_sync.so.1.0.0
+/usr/local/lib/aarch64-linux-gnu/libgnuradio-hackrf_sync.so
+/usr/local/lib/cmake/gnuradio-hackrf_sync/gnuradio-hackrf_syncTargets.cmake
+/usr/local/lib/cmake/gnuradio-hackrf_sync/gnuradio-hackrf_syncTargets-release.cmake
+/usr/local/lib/cmake/gnuradio-hackrf_sync/gnuradio-hackrf_syncConfig.cmake
+/usr/local/lib/python3.13/dist-packages/gnuradio/hackrf_sync/hackrf_sync_python.cpython-313-aarch64-linux-gnu.so
+/usr/local/lib/python3.13/dist-packages/gnuradio/hackrf_sync/__init__.py
+/usr/local/share/gnuradio/grc/blocks/hackrf_sync_sync_source.block.yml
+/usr/local/lib/cmake/gnuradio-hackrf_sync/gnuradio-hackrf_syncConfig.cmake
+/usr/local/share/gnuradio/manifests/hackrf_sync/MANIFEST-1.0.00.yml
