@@ -1,7 +1,7 @@
 # gr-hackrf_sync
 **Phase-Coherent Radio Direction Finding (RDF) for GNU Radio 3.10**
 
-This project provides a specialized GNU Radio block for **Interferometry** and **Direction Finding** at 145 MHz. By locking the clocks and aligning the sample start-times of two HackRF One devices, we can measure the precise Phase Difference of an incoming signal.
+This project provides a specialized GNU Radio block for **Interferometry** and **Direction Finding** at Freq  MHz. By locking the clocks and aligning the sample start-times of two HackRF One devices, we can measure the precise Phase Difference of an incoming signal.
 
 ## Hardware Configuration (Header P28)
 For phase-coherence, the Master and Slave HackRFs must be physically synchronized:
