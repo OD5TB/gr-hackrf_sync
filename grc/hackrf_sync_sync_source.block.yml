@@ -39,6 +39,20 @@ parameters:
   default: 'False'
   options: ['False', 'True']
   option_labels: ['Slave (Wait)', 'Master (Fire)']
+# --- NEW PARAMETERS START ---
+- id: clkout
+  label: Clock Out (Master)
+  dtype: bool
+  default: 'False'
+  options: ['False', 'True']
+  option_labels: ['Off', 'On']
+- id: clkin
+  label: Clock In (Slave)
+  dtype: bool
+  default: 'False'
+  options: ['False', 'True']
+  option_labels: ['Off', 'On']
+# --- NEW PARAMETERS END ---
 
 outputs:
 - label: out
@@ -47,6 +61,7 @@ outputs:
 
 templates:
   imports: from gnuradio import hackrf_sync
-  make: hackrf_sync.sync_source(${serial}, ${freq}, ${samp_rate}, ${bandwidth}, ${if_gain}, ${bb_gain}, ${rf_amp}, ${hw_sync})
+  # Added clkout and clkin to the constructor call
+  make: hackrf_sync.sync_source(${serial}, ${freq}, ${samp_rate}, ${bandwidth}, ${if_gain}, ${bb_gain}, ${rf_amp}, ${hw_sync}, ${clkout}, ${clkin})
 
 file_format: 1
