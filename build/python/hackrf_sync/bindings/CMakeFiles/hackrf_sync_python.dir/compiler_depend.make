@@ -470,8 +470,6 @@ python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/python_bindings.cc
   /usr/lib/linux/uapi/arm64/asm/types.h
 
 python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/sync_source_python.cc.o: /home/od5tb/Documents/gr-hackrf_sync/python/hackrf_sync/bindings/sync_source_python.cc \
-  python/hackrf_sync/bindings/pydoc_macros.h \
-  python/hackrf_sync/bindings/sync_source_pydoc.h \
   /home/od5tb/Documents/gr-hackrf_sync/include/gnuradio/hackrf_sync/api.h \
   /home/od5tb/Documents/gr-hackrf_sync/include/gnuradio/hackrf_sync/sync_source.h \
   /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
@@ -2145,9 +2143,11 @@ python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/python_bindings.cc
 
 /usr/include/boost/thread/detail/thread_interruption.hpp:
 
-/usr/include/boost/thread/detail/thread.hpp:
+/usr/include/boost/container_hash/is_described_class.hpp:
 
-/usr/include/boost/thread/detail/platform_time.hpp:
+/usr/include/c++/14/ctime:
+
+/usr/include/boost/mpl/bool.hpp:
 
 /usr/include/boost/container_hash/hash_fwd.hpp:
 
@@ -2200,18 +2200,6 @@ python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/python_bindings.cc
 /usr/include/boost/system/detail/errc.hpp:
 
 /usr/include/python3.13/cpython/compile.h:
-
-python/hackrf_sync/bindings/sync_source_pydoc.h:
-
-/usr/include/boost/container_hash/is_described_class.hpp:
-
-/usr/include/c++/14/ctime:
-
-/usr/include/boost/mpl/bool.hpp:
-
-python/hackrf_sync/bindings/pydoc_macros.h:
-
-/usr/include/boost/predef/language/objc.h:
 
 /home/od5tb/Documents/gr-hackrf_sync/python/hackrf_sync/bindings/sync_source_python.cc:
 
@@ -2747,6 +2735,8 @@ python/hackrf_sync/bindings/pydoc_macros.h:
 
 /usr/include/boost/ratio/detail/overflow_helpers.hpp:
 
+/usr/include/boost/container_hash/is_unordered_range.hpp:
+
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/14/bits/hashtable_policy.h:
@@ -3022,6 +3012,8 @@ python/hackrf_sync/bindings/pydoc_macros.h:
 /usr/include/aarch64-linux-gnu/c++/14/bits/ctype_inline.h:
 
 /usr/include/aarch64-linux-gnu/bits/confname.h:
+
+/usr/include/boost/thread/detail/platform_time.hpp:
 
 /usr/include/python3.13/cpython/critical_section.h:
 
@@ -3596,8 +3588,6 @@ python/hackrf_sync/bindings/pydoc_macros.h:
 /usr/include/c++/14/bits/stl_function.h:
 
 /usr/include/c++/14/memory:
-
-/usr/include/boost/container_hash/is_unordered_range.hpp:
 
 /usr/include/boost/core/addressof.hpp:
 
@@ -4313,6 +4303,8 @@ python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/sync_source_python
 
 /usr/include/boost/predef/language/cuda.h:
 
+/usr/include/boost/predef/language/objc.h:
+
 /usr/include/boost/predef/language/stdc.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
@@ -4554,3 +4546,5 @@ python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/sync_source_python
 /usr/include/boost/thread/detail/is_convertible.hpp:
 
 /usr/include/boost/thread/detail/memory.hpp:
+
+/usr/include/boost/thread/detail/thread.hpp:

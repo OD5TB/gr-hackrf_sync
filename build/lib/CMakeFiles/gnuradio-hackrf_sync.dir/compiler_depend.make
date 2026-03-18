@@ -151,6 +151,20 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o: /home/od5tb/Docum
   /usr/include/boost/chrono/duration.hpp \
   /usr/include/boost/chrono/system_clocks.hpp \
   /usr/include/boost/chrono/time_point.hpp \
+  /usr/include/boost/circular_buffer.hpp \
+  /usr/include/boost/circular_buffer/base.hpp \
+  /usr/include/boost/circular_buffer/debug.hpp \
+  /usr/include/boost/circular_buffer/details.hpp \
+  /usr/include/boost/circular_buffer/space_optimized.hpp \
+  /usr/include/boost/circular_buffer_fwd.hpp \
+  /usr/include/boost/concept/assert.hpp \
+  /usr/include/boost/concept/detail/backward_compatibility.hpp \
+  /usr/include/boost/concept/detail/concept_def.hpp \
+  /usr/include/boost/concept/detail/concept_undef.hpp \
+  /usr/include/boost/concept/detail/general.hpp \
+  /usr/include/boost/concept/detail/has_constraints.hpp \
+  /usr/include/boost/concept/usage.hpp \
+  /usr/include/boost/concept_check.hpp \
   /usr/include/boost/config.hpp \
   /usr/include/boost/config/abi_prefix.hpp \
   /usr/include/boost/config/abi_suffix.hpp \
@@ -190,9 +204,11 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o: /home/od5tb/Docum
   /usr/include/boost/core/detail/sp_thread_pause.hpp \
   /usr/include/boost/core/detail/sp_thread_sleep.hpp \
   /usr/include/boost/core/detail/sp_thread_yield.hpp \
+  /usr/include/boost/core/empty_value.hpp \
   /usr/include/boost/core/enable_if.hpp \
   /usr/include/boost/core/explicit_operator_bool.hpp \
   /usr/include/boost/core/ignore_unused.hpp \
+  /usr/include/boost/core/no_exceptions_support.hpp \
   /usr/include/boost/core/pointer_traits.hpp \
   /usr/include/boost/core/ref.hpp \
   /usr/include/boost/core/scoped_enum.hpp \
@@ -286,17 +302,27 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o: /home/od5tb/Docum
   /usr/include/boost/is_placeholder.hpp \
   /usr/include/boost/limits.hpp \
   /usr/include/boost/move/adl_move_swap.hpp \
+  /usr/include/boost/move/algo/move.hpp \
+  /usr/include/boost/move/algorithm.hpp \
   /usr/include/boost/move/core.hpp \
   /usr/include/boost/move/default_delete.hpp \
   /usr/include/boost/move/detail/addressof.hpp \
   /usr/include/boost/move/detail/config_begin.hpp \
   /usr/include/boost/move/detail/config_end.hpp \
+  /usr/include/boost/move/detail/iterator_to_raw_pointer.hpp \
+  /usr/include/boost/move/detail/iterator_traits.hpp \
   /usr/include/boost/move/detail/meta_utils.hpp \
   /usr/include/boost/move/detail/meta_utils_core.hpp \
+  /usr/include/boost/move/detail/pointer_element.hpp \
+  /usr/include/boost/move/detail/std_ns_begin.hpp \
+  /usr/include/boost/move/detail/std_ns_end.hpp \
+  /usr/include/boost/move/detail/to_raw_pointer.hpp \
   /usr/include/boost/move/detail/type_traits.hpp \
   /usr/include/boost/move/detail/unique_ptr_meta_utils.hpp \
   /usr/include/boost/move/detail/workaround.hpp \
+  /usr/include/boost/move/iterator.hpp \
   /usr/include/boost/move/make_unique.hpp \
+  /usr/include/boost/move/move.hpp \
   /usr/include/boost/move/traits.hpp \
   /usr/include/boost/move/unique_ptr.hpp \
   /usr/include/boost/move/utility.hpp \
@@ -647,12 +673,25 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o: /home/od5tb/Docum
   /usr/include/boost/preprocessor/punctuation/comma.hpp \
   /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
   /usr/include/boost/preprocessor/repeat.hpp \
+  /usr/include/boost/preprocessor/repetition/detail/for.hpp \
+  /usr/include/boost/preprocessor/repetition/detail/limits/for_256.hpp \
   /usr/include/boost/preprocessor/repetition/enum_binary_params.hpp \
   /usr/include/boost/preprocessor/repetition/enum_params.hpp \
   /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+  /usr/include/boost/preprocessor/repetition/for.hpp \
+  /usr/include/boost/preprocessor/repetition/limits/for_256.hpp \
   /usr/include/boost/preprocessor/repetition/limits/repeat_256.hpp \
   /usr/include/boost/preprocessor/repetition/repeat.hpp \
   /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+  /usr/include/boost/preprocessor/seq/detail/is_empty.hpp \
+  /usr/include/boost/preprocessor/seq/elem.hpp \
+  /usr/include/boost/preprocessor/seq/enum.hpp \
+  /usr/include/boost/preprocessor/seq/for_each_i.hpp \
+  /usr/include/boost/preprocessor/seq/limits/elem_256.hpp \
+  /usr/include/boost/preprocessor/seq/limits/enum_256.hpp \
+  /usr/include/boost/preprocessor/seq/limits/size_256.hpp \
+  /usr/include/boost/preprocessor/seq/seq.hpp \
+  /usr/include/boost/preprocessor/seq/size.hpp \
   /usr/include/boost/preprocessor/stringize.hpp \
   /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
   /usr/include/boost/preprocessor/tuple/eat.hpp \
@@ -793,6 +832,7 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o: /home/od5tb/Docum
   /usr/include/boost/type_traits/common_type.hpp \
   /usr/include/boost/type_traits/conditional.hpp \
   /usr/include/boost/type_traits/conjunction.hpp \
+  /usr/include/boost/type_traits/conversion_traits.hpp \
   /usr/include/boost/type_traits/decay.hpp \
   /usr/include/boost/type_traits/declval.hpp \
   /usr/include/boost/type_traits/detail/config.hpp \
@@ -804,6 +844,9 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o: /home/od5tb/Docum
   /usr/include/boost/type_traits/enable_if.hpp \
   /usr/include/boost/type_traits/has_nothrow_assign.hpp \
   /usr/include/boost/type_traits/has_nothrow_constructor.hpp \
+  /usr/include/boost/type_traits/has_trivial_constructor.hpp \
+  /usr/include/boost/type_traits/has_trivial_copy.hpp \
+  /usr/include/boost/type_traits/has_trivial_destructor.hpp \
   /usr/include/boost/type_traits/has_trivial_move_assign.hpp \
   /usr/include/boost/type_traits/integral_constant.hpp \
   /usr/include/boost/type_traits/intrinsics.hpp \
@@ -818,8 +861,10 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o: /home/od5tb/Docum
   /usr/include/boost/type_traits/is_const.hpp \
   /usr/include/boost/type_traits/is_constructible.hpp \
   /usr/include/boost/type_traits/is_convertible.hpp \
+  /usr/include/boost/type_traits/is_copy_constructible.hpp \
   /usr/include/boost/type_traits/is_default_constructible.hpp \
   /usr/include/boost/type_traits/is_destructible.hpp \
+  /usr/include/boost/type_traits/is_empty.hpp \
   /usr/include/boost/type_traits/is_enum.hpp \
   /usr/include/boost/type_traits/is_floating_point.hpp \
   /usr/include/boost/type_traits/is_function.hpp \
@@ -836,6 +881,7 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o: /home/od5tb/Docum
   /usr/include/boost/type_traits/is_same.hpp \
   /usr/include/boost/type_traits/is_scalar.hpp \
   /usr/include/boost/type_traits/is_signed.hpp \
+  /usr/include/boost/type_traits/is_stateless.hpp \
   /usr/include/boost/type_traits/is_union.hpp \
   /usr/include/boost/type_traits/is_unsigned.hpp \
   /usr/include/boost/type_traits/is_void.hpp \
@@ -1252,33 +1298,67 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/spdlog/details/os.h:
 
-/usr/include/boost/predef/library/std/roguewave.h:
+/usr/include/spdlog/details/backtracer.h:
 
-/usr/include/boost/predef/library/std/modena.h:
+/usr/include/pmt/pmt_sugar.h:
 
-/usr/include/boost/predef/architecture/e2k.h:
+/usr/include/pmt/pmt.h:
 
-/usr/include/boost/predef/library/std/_prefix.h:
+/usr/include/math.h:
 
-/usr/include/boost/predef/architecture/alpha.h:
+/usr/include/locale.h:
 
-/usr/include/spdlog/details/null_mutex.h:
+/usr/include/linux/types.h:
 
-/usr/include/boost/date_time/gregorian/gregorian_types.hpp:
+/usr/include/linux/stddef.h:
 
-/usr/include/boost/predef/library/c/zos.h:
+/usr/include/linux/errno.h:
 
-/usr/include/boost/preprocessor/control/if.hpp:
+/usr/include/linux/close_range.h:
 
-/usr/include/boost/predef/library/c/_prefix.h:
+/usr/include/limits.h:
 
-/usr/include/boost/predef/language/stdc.h:
+/usr/include/libintl.h:
 
-/usr/include/boost/predef/hardware/simd/x86_amd/versions.h:
+/usr/lib/linux/uapi/arm64/asm/posix_types.h:
 
-/usr/include/boost/predef/compiler/metrowerks.h:
+/usr/include/gnuradio/types.h:
 
-/usr/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
+/usr/include/gnuradio/transfer_type.h:
+
+/usr/include/gnuradio/thread/thread.h:
+
+/usr/include/gnuradio/tags.h:
+
+/usr/include/gnuradio/sync_block.h:
+
+/usr/include/gnuradio/sptr_magic.h:
+
+/usr/include/gnuradio/rpcserver_selector.h:
+
+/usr/include/gnuradio/rpcserver_booter_base.h:
+
+/usr/include/gnuradio/rpcserver_booter_aggregator.h:
+
+/usr/include/gnuradio/rpcserver_base.h:
+
+/usr/include/gnuradio/rpcserver_aggregator.h:
+
+/usr/include/gnuradio/rpcmanager_base.h:
+
+/usr/include/gnuradio/rpccallbackregister_base.h:
+
+/usr/include/gnuradio/msg_accepter.h:
+
+/usr/include/gnuradio/messages/msg_producer.h:
+
+/usr/include/gnuradio/messages/msg_accepter.h:
+
+/usr/include/gnuradio/io_signature.h:
+
+/usr/include/gnuradio/gr_complex.h:
+
+/usr/include/gnuradio/config.h:
 
 /usr/include/boost/config/requires_threads.hpp:
 
@@ -1292,13 +1372,11 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/predef/compiler/watcom.h:
 
-/usr/include/boost/mp11/list.hpp:
-
 /usr/include/boost/format/alt_sstream.hpp:
 
-/usr/include/boost/thread/locks.hpp:
-
 /usr/include/boost/predef/compiler/sgi_mipspro.h:
+
+/usr/include/boost/preprocessor/repetition/detail/for.hpp:
 
 /usr/include/boost/predef/compiler/pgi.h:
 
@@ -1307,6 +1385,8 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/predef/compiler/nvcc.h:
 
 /usr/include/boost/predef/compiler/mpw.h:
+
+/usr/include/boost/concept/usage.hpp:
 
 /usr/include/boost/predef/compiler/metaware.h:
 
@@ -1336,6 +1416,10 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
 
+/usr/include/gnuradio/logger.h:
+
+/usr/include/boost/system/detail/cerrno.hpp:
+
 /usr/include/boost/predef/architecture/z.h:
 
 /usr/include/boost/predef/architecture/x86.h:
@@ -1356,9 +1440,13 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/predef/architecture/arm.h:
 
-/usr/include/boost/predef/library/std/msl.h:
+/usr/include/boost/predef/architecture/alpha.h:
 
-/usr/include/boost/predef/architecture.h:
+/usr/include/spdlog/details/null_mutex.h:
+
+/usr/include/boost/date_time/gregorian/gregorian_types.hpp:
+
+/usr/include/boost/predef/library/std/_prefix.h:
 
 /usr/include/boost/predef/hardware/simd/ppc.h:
 
@@ -1384,15 +1472,7 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp:
 
-/usr/include/gnuradio/rpcserver_booter_aggregator.h:
-
 /usr/include/boost/optional.hpp:
-
-/usr/lib/aarch64-linux-gnu/libc.so:
-
-/usr/include/boost/predef/language.h:
-
-/usr/include/boost/operators.hpp:
 
 /usr/include/boost/preprocessor/variadic/limits/elem_64.hpp:
 
@@ -1430,8 +1510,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/numeric/conversion/detail/bounds.hpp:
 
-/usr/include/pmt/pmt_sugar.h:
-
 /usr/include/boost/numeric/conversion/converter.hpp:
 
 /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.83.0:
@@ -1452,11 +1530,19 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/predef/hardware.h:
 
+/usr/include/sched.h:
+
+/usr/include/boost/mpl/times.hpp:
+
 /usr/include/boost/predef/architecture/parisc.h:
 
 /usr/include/boost/thread/lock_algorithms.hpp:
 
 /usr/include/boost/mpl/multiplies.hpp:
+
+/usr/include/libhackrf/hackrf.h:
+
+/usr/include/boost/mpl/less.hpp:
 
 /usr/include/boost/mpl/integral_c_tag.hpp:
 
@@ -1466,19 +1552,21 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/numeric/conversion/conversion_traits.hpp:
 
+/usr/include/boost/preprocessor/seq/limits/size_256.hpp:
+
 /usr/include/boost/mpl/integral_c_fwd.hpp:
 
 /usr/include/boost/preprocessor/logical/bool.hpp:
 
 /usr/include/c++/14/cstdlib:
 
-/usr/include/boost/predef/library/std.h:
-
 /usr/include/boost/mpl/integral_c.hpp:
 
 /usr/include/boost/mp11/algorithm.hpp:
 
 /usr/include/boost/mpl/int.hpp:
+
+/usr/include/boost/preprocessor/seq/limits/enum_256.hpp:
 
 /usr/include/boost/mpl/identity.hpp:
 
@@ -1520,11 +1608,7 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/preprocessor/control/detail/limits/while_256.hpp:
 
-/usr/include/gnuradio/rpcserver_aggregator.h:
-
 /usr/include/boost/mpl/aux_/na_spec.hpp:
-
-/usr/include/gnuradio/io_signature.h:
 
 /usr/include/boost/optional/detail/optional_reference_spec.hpp:
 
@@ -1536,9 +1620,11 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/mpl/aux_/na.hpp:
 
-/usr/include/boost/core/detail/sp_thread_sleep.hpp:
+/usr/include/gnuradio/custom_lock.h:
 
-/usr/include/boost/preprocessor/variadic/limits/size_64.hpp:
+/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
+
+/usr/include/boost/core/detail/sp_thread_sleep.hpp:
 
 /usr/include/c++/14/list:
 
@@ -1570,12 +1656,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/predef/os/linux.h:
 
-/usr/include/boost/type_traits/decay.hpp:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
-
-/usr/include/limits.h:
-
 /usr/include/boost/mpl/aux_/config/forwarding.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/errno.h:
@@ -1587,8 +1667,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/numeric/conversion/detail/meta.hpp:
 
 /usr/include/boost/mpl/void.hpp:
-
-/usr/include/gnuradio/sync_block.h:
 
 /usr/include/boost/mpl/aux_/config/ctps.hpp:
 
@@ -1628,8 +1706,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/mp11/detail/mp_rename.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h:
-
 /usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/boost/mp11/detail/mp_plus.hpp:
@@ -1642,6 +1718,10 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/mp11/detail/mp_is_list.hpp:
 
+/usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/boost/preprocessor/seq/seq.hpp:
+
 /usr/include/c++/14/bits/stl_tree.h:
 
 /usr/include/boost/mp11/detail/mp_fold.hpp:
@@ -1652,9 +1732,11 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/mpl/logical.hpp:
 
-/usr/include/boost/predef/platform/mingw.h:
+/usr/include/boost/predef/compiler/metrowerks.h:
 
-/usr/include/boost/predef/language/objc.h:
+/usr/include/boost/predef/hardware/simd/x86_amd/versions.h:
+
+/usr/include/boost/preprocessor/list/detail/limits/fold_left_256.hpp:
 
 /usr/include/boost/move/utility_core.hpp:
 
@@ -1664,9 +1746,13 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/type_traits/remove_reference.hpp:
 
+/usr/include/boost/move/move.hpp:
+
 /usr/include/boost/move/make_unique.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/boost/move/iterator.hpp:
 
 /usr/include/boost/mp11/set.hpp:
 
@@ -1682,7 +1768,13 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/move/detail/meta_utils_core.hpp:
 
+/usr/include/boost/move/detail/iterator_to_raw_pointer.hpp:
+
 /usr/include/boost/thread/thread_only.hpp:
+
+/usr/include/boost/any/fwd.hpp:
+
+/usr/include/boost/move/algo/move.hpp:
 
 /usr/include/boost/none.hpp:
 
@@ -1698,13 +1790,15 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/io/ios_state.hpp:
 
+/usr/include/pthread.h:
+
+/usr/include/boost/date_time/period.hpp:
+
 /usr/include/boost/integer_traits.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/uio_lim.h:
 
 /usr/include/boost/functional/hash.hpp:
-
-/usr/include/boost/format/internals_fwd.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/time64.h:
 
@@ -1728,13 +1822,35 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/type_traits/common_type.hpp:
 
-/usr/include/boost/preprocessor/comparison/limits/not_equal_256.hpp:
-
-/usr/include/boost/format/detail/compat_workarounds.hpp:
-
 /usr/include/boost/format.hpp:
 
 /usr/include/boost/exception/exception.hpp:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdio.h:
+
+/usr/include/boost/ratio/detail/mpl/lcm.hpp:
+
+/usr/include/c++/14/stdlib.h:
+
+/usr/include/boost/describe/detail/cx_streq.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/timex.h:
+
+/usr/include/boost/none_t.hpp:
+
+/usr/include/boost/predef/compiler/visualc.h:
+
+/usr/include/boost/chrono/system_clocks.hpp:
+
+/usr/include/boost/date_time/time_system_split.hpp:
+
+/usr/include/boost/date_time/time_system_counted.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_day.hpp:
+
+/usr/include/boost/date_time/time_duration.hpp:
 
 /usr/include/asm-generic/errno.h:
 
@@ -1743,10 +1859,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/c++/14/bits/parse_numbers.h:
 
 /usr/include/boost/predef/detail/_exception.h:
-
-/usr/include/boost/predef/library/std/sgi.h:
-
-/usr/include/aarch64-linux-gnu/sys/types.h:
 
 /usr/include/boost/bind/placeholders.hpp:
 
@@ -1758,13 +1870,11 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/aarch64-linux-gnu/sys/single_threaded.h:
 
+/usr/include/c++/14/bits/allocator.h:
+
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/boost/predef/library/c/vms.h:
-
-/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
-
-/usr/include/gnuradio/custom_lock.h:
 
 /usr/include/aarch64-linux-gnu/c++/14/bits/time_members.h:
 
@@ -1780,11 +1890,11 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/c++/14/functional:
 
-/usr/include/boost/move/detail/config_begin.hpp:
-
 /usr/include/c++/14/bits/functexcept.h:
 
 /usr/include/boost/ratio/detail/overflow_helpers.hpp:
+
+/usr/include/boost/predef/architecture/e2k.h:
 
 /usr/include/boost/format/format_class.hpp:
 
@@ -1795,10 +1905,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/aarch64-linux-gnu/c++/14/bits/c++config.h:
 
 /usr/include/boost/preprocessor/comparison/not_equal.hpp:
-
-/usr/include/aarch64-linux-gnu/gmp.h:
-
-/usr/include/c++/14/bits/allocator.h:
 
 /usr/include/asm-generic/types.h:
 
@@ -1818,11 +1924,19 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
 
+/usr/include/boost/circular_buffer.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/boost/ratio/ratio_fwd.hpp:
 
-/usr/include/gnuradio/msg_accepter.h:
+/usr/include/boost/move/detail/config_begin.hpp:
+
+/usr/include/boost/move/detail/to_raw_pointer.hpp:
+
+/usr/include/boost/preprocessor/detail/auto_rec.hpp:
+
+/usr/include/boost/type_traits/is_complete.hpp:
 
 /usr/include/boost/format/free_funcs.hpp:
 
@@ -1844,6 +1958,10 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/aarch64-linux-gnu/bits/byteswap.h:
 
+/usr/include/boost/move/detail/std_ns_begin.hpp:
+
+/usr/include/boost/date_time/date_clock_device.hpp:
+
 /usr/include/wctype.h:
 
 /usr/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp:
@@ -1852,7 +1970,11 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/date_time/gregorian/greg_ymd.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/typesizes.h:
+/usr/include/boost/concept_check.hpp:
+
+/usr/include/boost/circular_buffer/details.hpp:
+
+/usr/include/boost/type_traits/disjunction.hpp:
 
 /usr/include/aarch64-linux-gnu/c++/14/bits/c++locale.h:
 
@@ -1864,13 +1986,19 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
 
+/usr/include/boost/predef/os/ios.h:
+
+/usr/include/boost/describe/bases.hpp:
+
+/usr/include/boost/type_traits/alignment_of.hpp:
+
+/usr/include/boost/format/detail/msvc_disambiguater.hpp:
+
+/usr/include/boost/date_time/time_resolution_traits.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
-
-/usr/include/boost/numeric/conversion/bounds.hpp:
-
-/usr/include/boost/mpl/aux_/config/gcc.hpp:
 
 /usr/include/aarch64-linux-gnu/c++/14/bits/os_defines.h:
 
@@ -1900,27 +2028,23 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/c++/14/bits/shared_ptr.h:
 
-/usr/include/boost/preprocessor/comma_if.hpp:
-
-/usr/include/c++/14/bits/unique_ptr.h:
-
-/usr/include/boost/any/fwd.hpp:
-
-/usr/include/boost/config.hpp:
-
 /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
 
-/usr/include/c++/14/cstdarg:
+/usr/include/boost/predef/compiler/greenhills.h:
 
-/usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
+/usr/include/boost/predef/compiler/palm.h:
 
-/usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
+/usr/include/aarch64-linux-gnu/bits/long-double.h:
 
-/usr/include/boost/predef/hardware/simd/x86/versions.h:
+/usr/include/boost/concept/detail/backward_compatibility.hpp:
+
+/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
 
 /usr/include/boost/predef/architecture/ia64.h:
+
+/usr/include/boost/move/detail/std_ns_end.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -1938,7 +2062,9 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/boost/date_time/time_duration.hpp:
+/usr/include/boost/format/internals.hpp:
+
+/usr/include/boost/date_time/time_defs.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
 
@@ -1958,21 +2084,23 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
 
-/usr/include/boost/core/enable_if.hpp:
+/usr/include/boost/format/internals_fwd.hpp:
 
-/usr/include/boost/system/api_config.hpp:
+/usr/include/boost/concept/assert.hpp:
+
+/usr/include/boost/core/enable_if.hpp:
 
 /usr/lib/aarch64-linux-gnu/libfmt.so.10.1.0:
 
 /usr/include/boost/move/utility.hpp:
+
+/usr/include/boost/type_traits/has_trivial_constructor.hpp:
 
 /usr/include/c++/14/bits/cxxabi_forced.h:
 
 /usr/include/aarch64-linux-gnu/bits/local_lim.h:
 
 /usr/include/boost/predef/platform/windows_system.h:
-
-/usr/include/gnuradio/rpcserver_base.h:
 
 /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
 
@@ -2000,21 +2128,17 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/predef/platform/windows_store.h:
 
-/usr/include/boost/predef/compiler/greenhills.h:
-
-/usr/include/boost/predef/compiler/palm.h:
-
-/usr/include/aarch64-linux-gnu/bits/long-double.h:
-
 /usr/include/aarch64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/boost/predef/language/cuda.h:
 
 /usr/include/boost/config/platform/linux.hpp:
 
 /usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/boost/enable_shared_from_this.hpp:
+
+/usr/include/boost/date_time/date_generators.hpp:
 
 /usr/include/boost/predef/compiler/ekopath.h:
 
@@ -2027,6 +2151,8 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/bind/arg.hpp:
 
 /usr/include/boost/preprocessor/facilities/expand.hpp:
+
+/usr/include/boost/preprocessor/seq/enum.hpp:
 
 /usr/include/boost/system/detail/error_condition.hpp:
 
@@ -2046,8 +2172,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/type_traits/enable_if.hpp:
 
-/usr/include/gnuradio/buffer_double_mapped.h:
-
 /usr/include/boost/date_time/posix_time/posix_time_system.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
@@ -2055,6 +2179,8 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/thread/pthread/condition_variable_fwd.hpp:
 
 /usr/include/boost/mpl/if.hpp:
+
+/usr/include/boost/move/detail/iterator_traits.hpp:
 
 /usr/include/aarch64-linux-gnu/c++/14/bits/ctype_inline.h:
 
@@ -2064,11 +2190,33 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/thread/detail/platform_time.hpp:
 
+/usr/include/gnuradio/rpcmanager.h:
+
+/usr/include/c++/14/bits/basic_ios.tcc:
+
+/usr/include/aarch64-linux-gnu/gmp.h:
+
+/usr/include/boost/move/detail/pointer_element.hpp:
+
+/usr/include/boost/date_time/filetime_functions.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
+
 /usr/include/aarch64-linux-gnu/c++/14/bits/gthr-default.h:
+
+/usr/include/boost/describe/detail/config.hpp:
+
+/usr/include/c++/14/bits/uses_allocator_args.h:
 
 /usr/include/boost/predef/architecture/x86/32.h:
 
 /usr/include/aarch64-linux-gnu/bits/timesize.h:
+
+/usr/include/boost/predef/platform/mingw.h:
+
+/usr/include/boost/config.hpp:
+
+/usr/include/boost/circular_buffer/space_optimized.hpp:
 
 /usr/include/boost/format/format_fwd.hpp:
 
@@ -2096,8 +2244,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/c++/14/bits/stl_algo.h:
 
-/usr/include/boost/date_time/date_clock_device.hpp:
-
 /usr/include/boost/mp11/detail/mp_list_v.hpp:
 
 /usr/include/boost/move/default_delete.hpp:
@@ -2105,12 +2251,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/bind/storage.hpp:
 
 /usr/include/boost/type_traits/has_trivial_move_assign.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/timex.h:
-
-/usr/include/c++/14/stdlib.h:
-
-/usr/include/boost/describe/detail/cx_streq.hpp:
 
 /usr/include/boost/mpl/and.hpp:
 
@@ -2136,19 +2276,35 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/core/scoped_enum.hpp:
 
-/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+/usr/include/boost/config/user.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/14/bits/atomic_word.h:
+
+/usr/include/c++/14/deque:
+
+/usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/boost/describe/detail/void_t.hpp:
+
+/usr/include/boost/system/detail/requires_cxx11.hpp:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/boost/any/bad_any_cast.hpp:
 
-/usr/include/boost/predef/library/std/cxx.h:
+/usr/include/pmt/api.h:
 
-/usr/include/c++/14/tr1/hypergeometric.tcc:
-
-/usr/include/boost/preprocessor/logical/and.hpp:
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/boost/predef/other/endian.h:
+
+/usr/include/boost/predef/library/c/_prefix.h:
 
 /usr/include/aarch64-linux-gnu/bits/types.h:
 
@@ -2157,6 +2313,10 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/aarch64-linux-gnu/c++/14/bits/basic_file.h:
 
 /usr/include/boost/container_hash/is_tuple_like.hpp:
+
+/usr/include/boost/circular_buffer/debug.hpp:
+
+/usr/include/c++/14/cerrno:
 
 /usr/include/boost/mpl/aux_/config/lambda.hpp:
 
@@ -2172,21 +2332,25 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/config/workaround.hpp:
 
-/usr/include/boost/predef/compiler/gcc_xml.h:
-
-/usr/include/boost/system/detail/generic_category.hpp:
-
-/usr/include/gnuradio/rpcserver_selector.h:
-
 /usr/include/aarch64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/gnuradio/thread/thread.h:
 
 /usr/include/boost/mpl/aux_/config/has_xxx.hpp:
 
 /usr/include/assert.h:
 
 /usr/include/boost/mpl/aux_/yes_no.hpp:
+
+/usr/include/boost/optional/optional.hpp:
+
+/usr/include/boost/describe/members.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+/usr/include/boost/date_time/time_clock.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/boost/circular_buffer_fwd.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -2212,25 +2376,31 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/ratio/detail/requires_cxx11.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
-
-/usr/include/boost/date_time/time_clock.hpp:
-
-/usr/include/boost/describe/members.hpp:
-
 /usr/include/boost/any/detail/placeholder.hpp:
 
 /usr/include/boost/date_time/gregorian/conversion.hpp:
 
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
 
+/usr/include/linux/sched/types.h:
+
+/usr/include/boost/predef/compiler/tendra.h:
+
 /usr/include/boost/config/detail/select_platform_config.hpp:
+
+/usr/include/spdlog/details/log_msg.h:
+
+/usr/include/c++/14/bits/algorithmfwd.h:
+
+/usr/include/c++/14/debug/assertions.h:
 
 /usr/include/boost/date_time/gregorian/greg_calendar.hpp:
 
 /usr/include/boost/date_time/date_iterator.hpp:
 
 /usr/include/boost/date_time/dst_rules.hpp:
+
+/usr/include/boost/predef/architecture.h:
 
 /usr/include/boost/mpl/void_fwd.hpp:
 
@@ -2245,8 +2415,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/aarch64-linux-gnu/bits/setjmp.h:
 
 /usr/include/c++/14/iostream:
-
-/usr/include/boost/none_t.hpp:
 
 /usr/include/boost/core/ignore_unused.hpp:
 
@@ -2264,6 +2432,8 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/date_time/posix_time/time_period.hpp:
 
+/usr/include/boost/concept/detail/general.hpp:
+
 /usr/include/boost/predef/os/irix.h:
 
 /usr/include/boost/numeric/conversion/converter_policies.hpp:
@@ -2274,15 +2444,47 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/chrono/detail/system.hpp:
 
-/usr/include/boost/chrono/system_clocks.hpp:
-
-/usr/include/boost/predef/compiler/visualc.h:
-
 /usr/include/aarch64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/boost/preprocessor/array/elem.hpp:
 
 /usr/include/boost/chrono/time_point.hpp:
+
+/usr/include/boost/preprocessor/comparison/limits/not_equal_256.hpp:
+
+/usr/include/boost/format/detail/compat_workarounds.hpp:
+
+/usr/include/boost/system/api_config.hpp:
+
+/usr/include/boost/concept/detail/concept_def.hpp:
+
+/usr/include/boost/predef/hardware/simd/ppc/versions.h:
+
+/usr/include/boost/mpl/aux_/config/ttp.hpp:
+
+/usr/include/boost/any.hpp:
+
+/usr/include/boost/predef/os/os400.h:
+
+/usr/include/boost/thread/shared_lock_guard.hpp:
+
+/usr/include/boost/mpl/aux_/config/gcc.hpp:
+
+/usr/include/boost/numeric/conversion/bounds.hpp:
+
+/usr/include/boost/type_traits/decay.hpp:
+
+/usr/include/boost/mpl/aux_/config/integral.hpp:
+
+/usr/include/boost/concept/detail/concept_undef.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/typesizes.h:
+
+/usr/include/boost/date_time/adjust_functors.hpp:
+
+/usr/include/boost/type_traits/is_default_constructible.hpp:
+
+/usr/include/boost/concept/detail/has_constraints.hpp:
 
 /usr/include/boost/format/exceptions.hpp:
 
@@ -2296,9 +2498,19 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/config/detail/cxx_composite.hpp:
 
+/usr/include/boost/core/no_exceptions_support.hpp:
+
 /usr/include/boost/config/detail/posix_features.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/add.hpp:
+
+/usr/include/boost/system/detail/generic_category.hpp:
+
+/usr/include/boost/predef/compiler/gcc_xml.h:
+
+/usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/c++/14/cstdarg:
 
 /usr/include/boost/config/detail/select_compiler_config.hpp:
 
@@ -2307,6 +2519,12 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/aarch64-linux-gnu/bits/mathcalls-macros.h:
 
 /usr/include/boost/date_time/date_defs.hpp:
+
+/usr/include/gnuradio/rpcregisterhelpers.h:
+
+/usr/include/boost/bind/std_placeholders.hpp:
+
+/usr/include/boost/predef/library/std/modena.h:
 
 /usr/include/boost/predef/detail/_cassert.h:
 
@@ -2338,8 +2556,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/type_traits/type_identity.hpp:
 
-/usr/include/boost/config/user.hpp:
-
 /usr/include/boost/container_hash/detail/hash_range.hpp:
 
 /usr/include/boost/container_hash/is_range.hpp:
@@ -2368,10 +2584,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/container_hash/hash.hpp:
 
-/usr/include/boost/date_time/gregorian/greg_day.hpp:
-
-/usr/include/boost/date_time/time_system_counted.hpp:
-
 /usr/include/boost/predef/architecture/convex.h:
 
 /usr/include/aarch64-linux-gnu/c++/14/bits/cxxabi_tweaks.h:
@@ -2396,33 +2608,27 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/date_time/compiler_config.hpp:
 
+/usr/include/boost/move/algorithm.hpp:
+
 /usr/include/boost/container_hash/is_unordered_range.hpp:
 
-/usr/include/c++/14/initializer_list:
+/usr/include/boost/type_index/stl_type_index.hpp:
 
-/usr/include/boost/predef/library/c/uc.h:
-
-/usr/include/c++/14/bits/this_thread_sleep.h:
-
-/usr/include/boost/date_time/date_generators.hpp:
-
-/usr/include/boost/enable_shared_from_this.hpp:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdio.h:
-
-/usr/include/boost/ratio/detail/mpl/lcm.hpp:
+/usr/include/boost/date_time/wrapping_int.hpp:
 
 /usr/include/boost/core/detail/sp_thread_yield.hpp:
 
 /usr/include/boost/date_time/gregorian/greg_date.hpp:
 
+/usr/include/boost/preprocessor/variadic/limits/size_64.hpp:
+
+/usr/include/boost/core/empty_value.hpp:
+
+/usr/include/boost/get_pointer.hpp:
+
+/usr/include/c++/14/sstream:
+
 /usr/include/boost/type_traits/conditional.hpp:
-
-/usr/include/boost/type_traits/remove_extent.hpp:
-
-/usr/include/boost/core/explicit_operator_bool.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
 
@@ -2456,6 +2662,8 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/mpl/aux_/config/dtp.hpp:
 
+/usr/include/boost/preprocessor/seq/size.hpp:
+
 /usr/include/c++/14/tr1/ell_integral.tcc:
 
 /usr/include/boost/move/detail/meta_utils.hpp:
@@ -2464,17 +2672,9 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/c++/14/bits/locale_facets.tcc:
 
-/usr/include/boost/predef/hardware/simd/x86_amd.h:
-
-/usr/include/boost/core/detail/sp_thread_pause.hpp:
-
 /usr/include/gnuradio/buffer.h:
 
 /usr/include/boost/date_time/locale_config.hpp:
-
-/usr/include/boost/date_time/adjust_functors.hpp:
-
-/usr/include/boost/type_traits/is_default_constructible.hpp:
 
 /usr/include/boost/predef.h:
 
@@ -2492,17 +2692,11 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/date_time/date.hpp:
 
-/usr/include/boost/date_time/time_system_split.hpp:
-
 /usr/include/boost/preprocessor/list/detail/fold_left.hpp:
 
 /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp:
 
 /usr/include/c++/14/bits/std_abs.h:
-
-/usr/include/boost/date_time/filetime_functions.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
 
 /usr/include/boost/predef/architecture/blackfin.h:
 
@@ -2520,9 +2714,19 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/current_function.hpp:
 
-/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
-
 /usr/include/boost/thread/detail/platform.hpp:
+
+/usr/include/spdlog/details/log_msg_buffer.h:
+
+/usr/include/boost/mpl/aux_/nttp_decl.hpp:
+
+/usr/include/boost/date_time/date_duration_types.hpp:
+
+/usr/include/boost/type_traits/is_convertible.hpp:
+
+/usr/include/gnuradio/runtime_types.h:
+
+/home/od5tb/Documents/gr-hackrf_sync/lib/sync_source_impl.h:
 
 /usr/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
 
@@ -2533,10 +2737,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/system/error_condition.hpp:
 
 /usr/include/boost/date_time/gregorian_calendar.hpp:
-
-/usr/include/boost/system/detail/cerrno.hpp:
-
-/usr/include/gnuradio/logger.h:
 
 /usr/include/boost/preprocessor/list/limits/fold_left_256.hpp:
 
@@ -2566,59 +2766,73 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/move/unique_ptr.hpp:
 
-/usr/include/libintl.h:
-
 /usr/include/boost/date_time/time.hpp:
 
 /usr/include/boost/ratio/ratio.hpp:
 
 /usr/include/boost/smart_ptr/bad_weak_ptr.hpp:
 
-/usr/include/boost/format/internals.hpp:
+/usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
 
-/usr/include/boost/date_time/time_defs.hpp:
+/usr/include/boost/predef/hardware/simd/x86/versions.h:
 
-/usr/include/aarch64-linux-gnu/c++/14/bits/atomic_word.h:
+/usr/include/boost/core/detail/sp_thread_pause.hpp:
 
-/usr/include/c++/14/deque:
+/usr/include/boost/predef/hardware/simd/x86_amd.h:
 
-/usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
+/usr/include/boost/preprocessor/comma_if.hpp:
 
-/usr/include/boost/describe/detail/void_t.hpp:
+/usr/include/c++/14/bits/unique_ptr.h:
 
-/usr/include/boost/system/detail/requires_cxx11.hpp:
+/usr/lib/aarch64-linux-gnu/libc.so:
 
-/usr/include/boost/predef/os/ios.h:
+/usr/include/boost/operators.hpp:
 
-/usr/include/boost/describe/bases.hpp:
+/usr/include/boost/predef/language.h:
 
-/usr/include/boost/type_traits/alignment_of.hpp:
+/usr/include/boost/predef/language/cuda.h:
 
-/usr/include/boost/format/detail/msvc_disambiguater.hpp:
+/usr/include/boost/predef/language/objc.h:
 
-/usr/include/boost/date_time/time_resolution_traits.hpp:
+/usr/include/boost/predef/language/stdc.h:
 
-/usr/include/boost/type_index/stl_type_index.hpp:
+/usr/include/c++/14/initializer_list:
 
-/usr/include/boost/date_time/wrapping_int.hpp:
+/usr/include/boost/predef/library/c/uc.h:
 
-/usr/include/c++/14/bits/uses_allocator_args.h:
+/usr/include/boost/core/explicit_operator_bool.hpp:
 
-/usr/include/boost/describe/detail/config.hpp:
+/usr/include/boost/type_traits/remove_extent.hpp:
 
-/usr/include/boost/optional/optional.hpp:
+/usr/include/c++/14/bits/this_thread_sleep.h:
 
-/usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
+/usr/include/boost/predef/library/c/zos.h:
+
+/usr/include/boost/preprocessor/control/if.hpp:
+
+/usr/include/boost/predef/library/std.h:
+
+/usr/include/c++/14/tr1/hypergeometric.tcc:
+
+/usr/include/boost/preprocessor/logical/and.hpp:
+
+/usr/include/boost/predef/library/std/cxx.h:
+
+/usr/include/boost/predef/library/std/msl.h:
+
+/usr/include/boost/predef/library/std/roguewave.h:
+
+/usr/include/aarch64-linux-gnu/sys/types.h:
+
+/usr/include/boost/predef/library/std/sgi.h:
+
+/usr/include/boost/thread/locks.hpp:
 
 /usr/include/c++/14/optional:
 
 /usr/include/boost/predef/library/std/libcomo.h:
 
 /usr/include/gnuradio/attributes.h:
-
-/usr/include/boost/mpl/less.hpp:
-
-/usr/include/libhackrf/hackrf.h:
 
 /usr/include/boost/predef/library/std/stlport.h:
 
@@ -2655,16 +2869,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/mp11/utility.hpp:
 
 /usr/include/boost/predef/os/macos.h:
-
-/usr/include/boost/predef/hardware/simd/ppc/versions.h:
-
-/usr/include/boost/mpl/aux_/config/ttp.hpp:
-
-/usr/include/boost/any.hpp:
-
-/usr/include/boost/predef/os/os400.h:
-
-/usr/include/boost/thread/shared_lock_guard.hpp:
 
 /usr/include/boost/predef/os/solaris.h:
 
@@ -2736,10 +2940,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/preprocessor/debug/error.hpp:
 
-/usr/include/boost/preprocessor/detail/auto_rec.hpp:
-
-/usr/include/boost/type_traits/is_complete.hpp:
-
 /usr/include/boost/preprocessor/detail/check.hpp:
 
 /usr/include/boost/preprocessor/detail/is_binary.hpp:
@@ -2780,6 +2980,10 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/preprocessor/repeat.hpp:
 
+/usr/include/boost/preprocessor/repetition/detail/limits/for_256.hpp:
+
+/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
+
 /usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
 
 /usr/include/c++/14/ext/atomicity.h:
@@ -2790,13 +2994,29 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/smart_ptr/detail/operator_bool.hpp:
 
+/usr/include/boost/type_traits/is_empty.hpp:
+
+/usr/include/boost/preprocessor/repetition/limits/for_256.hpp:
+
 /usr/include/boost/preprocessor/repetition/repeat.hpp:
+
+/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+/usr/include/boost/preprocessor/seq/detail/is_empty.hpp:
+
+/usr/include/boost/preprocessor/seq/elem.hpp:
+
+/usr/include/boost/preprocessor/seq/for_each_i.hpp:
+
+/usr/include/c++/14/bits/align.h:
 
 /usr/include/boost/cstdint.hpp:
 
 /usr/include/boost/preprocessor/stringize.hpp:
 
 /usr/include/boost/preprocessor/tuple/eat.hpp:
+
+/usr/include/boost/type_traits/has_trivial_copy.hpp:
 
 /usr/include/boost/preprocessor/variadic/elem.hpp:
 
@@ -2810,10 +3030,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/ratio/detail/mpl/gcd.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/pmt/api.h:
-
 /usr/include/boost/smart_ptr/detail/requires_cxx11.hpp:
 
 /usr/include/c++/14/bits/stl_vector.h:
@@ -2821,8 +3037,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/core/checked_delete.hpp:
 
 /usr/include/boost/smart_ptr/detail/shared_count.hpp:
-
-/usr/include/gnuradio/gr_complex.h:
 
 /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp:
 
@@ -2837,8 +3051,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/config/helper_macros.hpp:
 
 /usr/include/c++/14/tr1/special_function_util.h:
-
-/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
 
 /usr/include/boost/bind/detail/is_same.hpp:
 
@@ -2861,6 +3073,8 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/system/detail/error_category_impl.hpp:
 
 /usr/include/boost/date_time/year_month_day.hpp:
+
+/usr/include/boost/preprocessor/repetition/for.hpp:
 
 /usr/include/boost/system/detail/interop_category.hpp:
 
@@ -2988,6 +3202,8 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/spdlog/spdlog.h:
 
+/usr/include/boost/preprocessor/seq/limits/elem_256.hpp:
+
 /usr/include/boost/thread/shared_mutex.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
@@ -3012,9 +3228,9 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/utility/enable_if.hpp:
 
-/usr/include/boost/format/detail/workarounds_gcc-2_95.hpp:
-
 /usr/include/boost/assert/source_location.hpp:
+
+/usr/include/boost/format/detail/workarounds_gcc-2_95.hpp:
 
 /usr/include/boost/type_traits/add_lvalue_reference.hpp:
 
@@ -3038,17 +3254,19 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/c++/14/thread:
 
+/usr/include/boost/type_traits/conversion_traits.hpp:
+
 /usr/include/boost/type_traits/declval.hpp:
 
 /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
+
+/usr/include/boost/circular_buffer/base.hpp:
 
 /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
 
 /usr/include/boost/preprocessor/comparison/equal.hpp:
 
 /usr/include/boost/type_traits/detail/yes_no_type.hpp:
-
-/usr/include/boost/type_traits/disjunction.hpp:
 
 /usr/include/boost/type_traits/has_nothrow_assign.hpp:
 
@@ -3058,13 +3276,13 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/boost/type_traits/has_nothrow_constructor.hpp:
 
+/usr/include/boost/mp11/list.hpp:
+
+/usr/include/boost/type_traits/has_trivial_destructor.hpp:
+
 /usr/include/boost/type_traits/is_abstract.hpp:
 
 /usr/include/boost/type_traits/is_arithmetic.hpp:
-
-/usr/lib/linux/uapi/arm64/asm/posix_types.h:
-
-/usr/include/gnuradio/types.h:
 
 /usr/include/boost/type_traits/is_array.hpp:
 
@@ -3079,6 +3297,8 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/predef/platform/windows_phone.h:
 
 /usr/include/boost/type_traits/is_constructible.hpp:
+
+/usr/include/boost/type_traits/is_copy_constructible.hpp:
 
 /usr/include/boost/type_traits/add_rvalue_reference.hpp:
 
@@ -3109,6 +3329,12 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/boost/type_traits/is_rvalue_reference.hpp:
 
 /usr/include/boost/type_traits/is_signed.hpp:
+
+/usr/include/gnuradio/buffer_double_mapped.h:
+
+/usr/include/boost/type_traits/is_stateless.hpp:
+
+/usr/include/c++/14/bits/fstream.tcc:
 
 /usr/include/boost/type_traits/is_unsigned.hpp:
 
@@ -3154,8 +3380,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/c++/14/bit:
 
-/usr/include/c++/14/bits/align.h:
-
 /usr/include/c++/14/bits/allocated_ptr.h:
 
 /usr/include/c++/14/bits/atomic_base.h:
@@ -3198,8 +3422,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/c++/14/bits/exception_defines.h:
 
-/usr/include/c++/14/bits/fstream.tcc:
-
 /usr/include/c++/14/bits/hash_bytes.h:
 
 /usr/include/c++/14/bits/hashtable.h:
@@ -3225,10 +3447,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/c++/14/bits/locale_facets_nonio.h:
 
 /usr/include/c++/14/bits/locale_facets_nonio.tcc:
-
-/usr/include/boost/mpl/times.hpp:
-
-/usr/include/sched.h:
 
 /usr/include/boost/date_time/constrained_value.hpp:
 
@@ -3322,15 +3540,11 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 
 /usr/include/c++/14/cctype:
 
-/usr/include/c++/14/cerrno:
-
 /usr/include/c++/14/chrono:
 
 /usr/include/c++/14/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/14/climits:
-
-/usr/include/gnuradio/rpcserver_booter_base.h:
 
 /usr/include/boost/type_traits/remove_bounds.hpp:
 
@@ -3389,10 +3603,6 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/c++/14/pstl/glue_memory_defs.h:
 
 /usr/include/c++/14/ratio:
-
-/usr/include/boost/get_pointer.hpp:
-
-/usr/include/c++/14/sstream:
 
 /usr/include/c++/14/string:
 
@@ -3453,75 +3663,3 @@ lib/CMakeFiles/gnuradio-hackrf_sync.dir/sync_source_impl.cc.o:
 /usr/include/gnuradio/block_registry.h:
 
 /usr/include/gnuradio/buffer_type.h:
-
-/usr/include/gnuradio/config.h:
-
-/usr/include/gnuradio/messages/msg_accepter.h:
-
-/usr/include/gnuradio/messages/msg_producer.h:
-
-/usr/include/gnuradio/rpccallbackregister_base.h:
-
-/usr/include/c++/14/bits/basic_ios.tcc:
-
-/usr/include/gnuradio/rpcmanager.h:
-
-/usr/include/gnuradio/rpcmanager_base.h:
-
-/usr/include/boost/bind/std_placeholders.hpp:
-
-/usr/include/gnuradio/rpcregisterhelpers.h:
-
-/home/od5tb/Documents/gr-hackrf_sync/lib/sync_source_impl.h:
-
-/usr/include/gnuradio/runtime_types.h:
-
-/usr/include/gnuradio/sptr_magic.h:
-
-/usr/include/gnuradio/tags.h:
-
-/usr/include/gnuradio/transfer_type.h:
-
-/usr/include/linux/close_range.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/boost/predef/compiler/tendra.h:
-
-/usr/include/linux/sched/types.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/locale.h:
-
-/usr/include/math.h:
-
-/usr/include/pmt/pmt.h:
-
-/usr/include/boost/date_time/period.hpp:
-
-/usr/include/pthread.h:
-
-/usr/include/spdlog/details/backtracer.h:
-
-/usr/include/c++/14/bits/algorithmfwd.h:
-
-/usr/include/c++/14/debug/assertions.h:
-
-/usr/include/spdlog/details/log_msg.h:
-
-/usr/include/boost/mpl/aux_/nttp_decl.hpp:
-
-/usr/include/boost/date_time/date_duration_types.hpp:
-
-/usr/include/boost/type_traits/is_convertible.hpp:
-
-/usr/include/spdlog/details/log_msg_buffer.h:

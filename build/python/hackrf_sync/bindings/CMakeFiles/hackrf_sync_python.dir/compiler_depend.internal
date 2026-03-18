@@ -472,8 +472,6 @@ python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/python_bindings.cc
 
 python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/sync_source_python.cc.o
  /home/od5tb/Documents/gr-hackrf_sync/python/hackrf_sync/bindings/sync_source_python.cc
- /home/od5tb/Documents/gr-hackrf_sync/build/python/hackrf_sync/bindings/pydoc_macros.h
- /home/od5tb/Documents/gr-hackrf_sync/build/python/hackrf_sync/bindings/sync_source_pydoc.h
  /home/od5tb/Documents/gr-hackrf_sync/include/gnuradio/hackrf_sync/api.h
  /home/od5tb/Documents/gr-hackrf_sync/include/gnuradio/hackrf_sync/sync_source.h
  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h

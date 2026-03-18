@@ -395,9 +395,8 @@ python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/sync_source_python
  /usr/include/c++/14/bits/mask_array.h \
  /usr/include/c++/14/bits/indirect_array.h /usr/include/c++/14/variant \
  /home/od5tb/Documents/gr-hackrf_sync/python/hackrf_sync/bindings/../../../include/gnuradio/hackrf_sync/sync_source.h \
- /home/od5tb/Documents/gr-hackrf_sync/python/hackrf_sync/bindings/../../../include/gnuradio/hackrf_sync/api.h \
- /usr/include/gnuradio/attributes.h /usr/include/gnuradio/sync_block.h \
- /usr/include/gnuradio/api.h /usr/include/gnuradio/block.h \
+ /usr/include/gnuradio/sync_block.h /usr/include/gnuradio/api.h \
+ /usr/include/gnuradio/attributes.h /usr/include/gnuradio/block.h \
  /usr/include/gnuradio/basic_block.h /usr/include/gnuradio/io_signature.h \
  /usr/include/spdlog/tweakme.h /usr/include/spdlog/fmt/fmt.h \
  /usr/include/fmt/core.h /usr/include/fmt/format.h \
@@ -1156,5 +1155,4 @@ python/hackrf_sync/bindings/CMakeFiles/hackrf_sync_python.dir/sync_source_python
  /usr/include/gmpxx.h /usr/include/c++/14/cfloat \
  /usr/lib/gcc/aarch64-linux-gnu/14/include/float.h \
  /usr/include/aarch64-linux-gnu/gmp.h \
- /home/od5tb/Documents/gr-hackrf_sync/build/python/hackrf_sync/bindings/sync_source_pydoc.h \
- /home/od5tb/Documents/gr-hackrf_sync/build/python/hackrf_sync/bindings/pydoc_macros.h
+ /home/od5tb/Documents/gr-hackrf_sync/python/hackrf_sync/bindings/../../../include/gnuradio/hackrf_sync/api.h

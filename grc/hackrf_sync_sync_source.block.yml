@@ -3,8 +3,8 @@ label: HackRF Sync Source
 category: '[HACKRF_SYNC]'
 
 templates:
-  imports: import hackrf_sync
-  make: hackrf_sync.sync_source.make(${serial}, ${hw_sync})
+  imports: from gnuradio import hackrf_sync
+  make: hackrf_sync.sync_source(${serial}, ${hw_sync})
 
 parameters:
 - id: serial

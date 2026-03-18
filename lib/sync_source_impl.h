@@ -9,42 +9,55 @@
 #define INCLUDED_HACKRF_SYNC_SYNC_SOURCE_IMPL_H
 
 #include <gnuradio/hackrf_sync/sync_source.h>
-#include <hackrf.h>  // --- CRITICAL: Include the hardware library ---
-#include <string>
+#include <libhackrf/hackrf.h>
+#include <boost/circular_buffer.hpp>
+#include <mutex>
 
 namespace gr {
-  namespace hackrf_sync {
+namespace hackrf_sync {
 
-    class sync_source_impl : public sync_source
-    {
-     private:
-      // --- ADDED: Hardware Management Variables ---
-      hackrf_device* d_device;
-      std::string d_serial;
-      bool d_hw_sync;      // Toggle for Hardware Triggering (Pin 16)
-      bool d_is_running;
+class sync_source_impl : public sync_source
+{
+private:
+    // Hardware handles
+    hackrf_device* d_device;
+    std::string d_serial;
+    
+    // Radio parameters
+    double d_freq;
+    double d_samp_rate;
+    double d_bandwidth;
+    int d_if_gain;
+    int d_bb_gain;
+    bool d_rf_amp;
+    bool d_hw_sync;
+    bool d_is_running;
 
-      // Callback function for HackRF data stream
-      static int _hackrf_callback(hackrf_transfer* transfer);
+    // Data handling (The "Bridge" between HackRF and GNU Radio)
+    std::mutex d_mutex;
+    boost::circular_buffer<gr_complex> d_buffer;
+    
+    // Internal processing functions
+    static int _hackrf_callback(hackrf_transfer* transfer);
+    int process_samples(unsigned char* buffer, size_t length);
 
-     public:
-      // Updated constructor to accept serial and sync toggle
-      sync_source_impl(std::string serial, bool hw_sync);
-      ~sync_source_impl();
+public:
+    sync_source_impl(std::string serial, double freq, double samp_rate, 
+                     double bandwidth, int if_gain, int bb_gain, 
+                     bool rf_amp, bool hw_sync);
+    ~sync_source_impl();
 
-      // Lifecycle overrides to control the SDR hardware
-      bool start() override;
-      bool stop() override;
+    // GNU Radio Lifecycle
+    bool start() override;
+    bool stop() override;
 
-      // The work function where GNU Radio processes samples
-      int work(
-              int noutput_items,
-              gr_vector_const_void_star &input_items,
-              gr_vector_void_star &output_items
-      ) override;
-    };
+    // The main data loop
+    int work(int noutput_items,
+             gr_vector_const_void_star& input_items,
+             gr_vector_void_star& output_items) override;
+};
 
-  } // namespace hackrf_sync
+} // namespace hackrf_sync
 } // namespace gr
 
 #endif /* INCLUDED_HACKRF_SYNC_SYNC_SOURCE_IMPL_H */
