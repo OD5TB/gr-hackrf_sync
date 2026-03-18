@@ -40,6 +40,11 @@ parameters:
   options: ['False', 'True']
   option_labels: ['Slave (Wait)', 'Master (Fire)']
 
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+
 templates:
   imports: from gnuradio import hackrf_sync
   make: hackrf_sync.sync_source(${serial}, ${freq}, ${samp_rate}, ${bandwidth}, ${if_gain}, ${bb_gain}, ${rf_amp}, ${hw_sync})
