@@ -6,7 +6,7 @@ namespace py = pybind11;
 
 #include <gnuradio/hackrf_sync/sync_source.h>
 
-void export_sync_source(py::module& m)
+void bind_sync_source(py::module& m)
 {
     using sync_source = gr::hackrf_sync::sync_source;
     py::class_<sync_source,
