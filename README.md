@@ -28,6 +28,14 @@ When the gain is too high (BB Gain 30+), the wave peaks flatten out (Clipping).
 This "blinds" the phase math. Lowering the gain restores the curvy 
 sine wave, allowing the needle to swing the full 90 degrees left and right.
 
+##  Successful Sync Log
+When the hardware is wired correctly (P28 Pin 15 -> 16), the console should show:
+1. `HACKRF_SYNC: Slave [xxxx] ARMED`
+2. `HACKRF_SYNC: Master [xxxx] FIRING PULSE`
+3. `Confidence: 1.000`
+
+If the Slave stays ARMED and never starts, check the jumper wire on Pin 16.
+
 ## Installation
 1. git clone https://github.com/OD5TB/gr-hackrf_sync.git
 2. cd gr-hackrf_sync
