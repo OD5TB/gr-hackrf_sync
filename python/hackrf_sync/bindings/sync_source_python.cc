@@ -22,5 +22,7 @@ void bind_sync_source(py::module& m)
              py::arg("bb_gain"),
              py::arg("rf_amp"),
              py::arg("hw_sync"),
+             py::arg("clkout"), // ADDED: Matches C++ make signature
+             py::arg("clkin"),  // ADDED: Matches C++ make signature
              "HackRF Sync Source Block");
 }
