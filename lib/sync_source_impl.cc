@@ -1,6 +1,15 @@
+/* -*- c++ -*- */
+/*
+ * Copyright 2026 OD5TB.
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
 #include "sync_source_impl.h"
 #include <gnuradio/io_signature.h>
 #include <algorithm>
+#include <iostream>
+#include <unistd.h> // For usleep
 
 namespace gr {
 namespace hackrf_sync {
@@ -24,7 +33,8 @@ sync_source_impl::sync_source_impl(std::string serial, double freq, double samp_
       d_rf_amp(rf_amp), d_hw_sync(hw_sync)
 {
     hackrf_init();
-    d_buffer.reserve(262144); // Pre-allocate buffer space
+    // FIX: Use set_capacity for Boost Circular Buffer instead of reserve
+    d_buffer.set_capacity(262144); 
 }
 
 sync_source_impl::~sync_source_impl() {
@@ -38,8 +48,8 @@ int sync_source_impl::_hackrf_callback(hackrf_transfer* transfer)
     sync_source_impl* obj = (sync_source_impl*)transfer->rx_ctx;
     std::lock_guard<std::mutex> lock(obj->d_mutex);
 
-    for (size_t i = 0; i < transfer->valid_length; i += 2) {
-        // Convert 8-bit signed integers to float complex (-1.0 to 1.0)
+    // FIX: Cast valid_length to size_t to avoid compiler warnings
+    for (size_t i = 0; i < (size_t)transfer->valid_length; i += 2) {
         float re = (float)((int8_t)transfer->buffer[i]) / 128.0f;
         float im = (float)((int8_t)transfer->buffer[i+1]) / 128.0f;
         obj->d_buffer.push_back(gr_complex(re, im));
@@ -66,19 +76,27 @@ int sync_source_impl::work(int noutput_items,
 }
 
 bool sync_source_impl::start() {
-    if (hackrf_open_by_serial(d_serial.c_str(), &d_device) != HACKRF_SUCCESS) return false;
+    if (hackrf_open_by_serial(d_serial.c_str(), &d_device) != HACKRF_SUCCESS) {
+        std::cerr << "HACKRF_SYNC: Could not open device " << d_serial << std::endl;
+        return false;
+    }
     
     hackrf_set_sample_rate(d_device, d_samp_rate);
     hackrf_set_freq(d_device, (uint64_t)d_freq);
+    hackrf_set_baseband_filter_bandwidth(d_device, (uint32_t)d_bandwidth);
+    
+    // Applying the Gain controls we worked on
     hackrf_set_vga_gain(d_device, d_if_gain);
     hackrf_set_lna_gain(d_device, d_bb_gain);
     hackrf_set_amp_enable(d_device, d_rf_amp ? 1 : 0);
 
     if (d_hw_sync) {
         usleep(50000);
-        hackrf_set_hw_sync_mode(d_device, 0); // Master
+        hackrf_set_hw_sync_mode(d_device, 0); // Master fires
+        std::cout << "HACKRF_SYNC: Master [" << d_serial << "] FIRING PULSE" << std::endl;
     } else {
-        hackrf_set_hw_sync_mode(d_device, 1); // Slave
+        hackrf_set_hw_sync_mode(d_device, 1); // Slave waits
+        std::cout << "HACKRF_SYNC: Slave [" << d_serial << "] ARMED" << std::endl;
     }
 
     return (hackrf_start_rx(d_device, _hackrf_callback, this) == HACKRF_SUCCESS);
@@ -93,4 +111,4 @@ bool sync_source_impl::stop() {
     return true;
 }
 
-} }
+} } // namespace gr::hackrf_sync
